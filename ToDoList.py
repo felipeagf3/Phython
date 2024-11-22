@@ -45,8 +45,8 @@ BtnRemovertarefa.pack()
 
 BtnConcluirTarefa = Button(janela,text="Concluir Tarefa",command=ConcluirTarefa) #botão que marca e remove da lista tarefa selecionadA
 BtnConcluirTarefa.pack() #posiciona e exibe o botão
-concluidas = Label(janela, text="Tarefas Concluidas")
-concluidas.pack()
+concluidas = Label(janela, text="Tarefas Concluidas") #texto de tarefas concluidas
+concluidas.pack()# posiciona o texto na janela
 
 janela.mainloop() #mantém a janela aberta até que seja fechada
 
